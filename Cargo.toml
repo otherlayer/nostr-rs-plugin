@@ -1,0 +1,10 @@
+[package]
+name = "nostr-rs-plugin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tonic = "0.8.3"
+nostr-rs-proto = { path = "../nostr-rs-proto" }
+dlopen2 = "0.4.1"
+

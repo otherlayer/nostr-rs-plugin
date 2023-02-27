@@ -1,6 +1,12 @@
 [package]
 name = "nostr-rs-plugin"
 version = "0.1.0"
+description = "Nostr Rust relay plugin trait for nostr-rs-ext module."
+authors = ["Otherlayer <otherlayer@pm.me>"]
+readme = "README.md"
+repository = "https://github.com/otherlayer/nostr-rs-plugin"
+license = "MIT"
+keywords = ["nostr", "relay", "extension", "plugin"]
 edition = "2021"
 
 [dependencies]

@@ -10,4 +10,4 @@ keywords = ["nostr", "relay", "extension", "plugin"]
 edition = "2021"
 
 [dependencies]
-nostr-rs-proto = { path = "../nostr-rs-proto" }
+nostr-rs-proto = "0.1.0"

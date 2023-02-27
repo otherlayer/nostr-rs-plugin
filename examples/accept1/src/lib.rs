@@ -5,6 +5,8 @@ struct Accept1;
 
 // accept only kind 1 events
 impl Plugin for Accept1 {
+    fn start(&self) {}
+
     fn name(&self) -> String {
         return "Accept1".to_owned();
     }
@@ -37,6 +39,8 @@ impl Plugin for Accept1 {
 
         return reply;
     }
+
+    fn stop(&self) {}
 }
 
 #[no_mangle]

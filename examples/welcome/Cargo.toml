@@ -1,0 +1,17 @@
+[package]
+name = "welcome"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib"]
+name = "plugin"
+
+[dependencies]
+ahash = "0.8.3"
+tonic = "0.8.3"
+tracing = "0.1.36"
+tokio = { version = "1", features = ["full", "tracing", "signal"] }
+
+nostr-rs-proto = "0.1.0"
+nostr-rs-plugin = "0.1.4"

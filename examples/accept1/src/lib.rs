@@ -5,13 +5,13 @@ struct Accept1;
 
 // accept only kind 1 events
 impl Plugin for Accept1 {
-    fn start(&mut self) {}
+    fn start(&self) {}
 
     fn name(&self) -> String {
         return "Accept1".to_owned();
     }
 
-    fn admit_event(&mut self, request: &EventRequest) -> EventReply {
+    fn admit_event(&self, request: &EventRequest) -> EventReply {
         let reply;
         let opt_event = &request.event;
 
@@ -40,7 +40,7 @@ impl Plugin for Accept1 {
         return reply;
     }
 
-    fn stop(&mut self) {}
+    fn stop(&self) {}
 }
 
 #[no_mangle]

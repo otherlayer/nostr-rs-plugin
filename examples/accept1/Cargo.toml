@@ -8,5 +8,5 @@ crate-type = ["dylib"]
 name = "plugin"
 
 [dependencies]
-nostr-rs-proto = { path = "../../../nostr-rs-proto" }
-nostr-rs-plugin = { path = "../../" }
+nostr-rs-proto = "0.1.0"
+nostr-rs-plugin = "0.1.1"
